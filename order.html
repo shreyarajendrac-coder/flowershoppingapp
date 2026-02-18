@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Shop - Order Now</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+        }
+
+        .container {
+            width: 450px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #e91e63;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 12px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: #e91e63;
+        }
+
+        textarea {
+            resize: none;
+            height: 70px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c2185b;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🌸 Order Your Flowers</h2>
+
+    <form>
+        <label>Customer Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required>
+
+        <label>Select Flower</label>
+        <select required>
+            <option value="">-- Choose Flower --</option>
+            <option> Red Roses Bouquet</option>
+            <option>Sunflower Bunch</option>
+            <option>Pink Tulips</option>
+            <option>Mix Flower Basket</option>
+            <option>Blue Orchids Bouquet</option>
+            <option>Pink Rose Bouquet</option>
+            <option>White Tulips Bouquet</option>
+            <option>Frangipani Bouquet</option>
+            <option>Pink Sunflower Bouquet</option>
+            <option>Lavender Bouquet</option>
+            <option>Pink Lotus Bouquet</option>
+            <option>Purpule Mix Bouquet</option>
+            <option>Red Tulips Flowers</option>
+            <option>White Lily Flowers</option>
+            <option>Peonies Flowers</option>
+            <option>Pink Oriental Lily Bouquet</option>
+
+
+
+        </select>
+
+        <label>Quantity</label>
+        <input type="number" min="1" placeholder="Enter quantity" required>
+
+        <label>Delivery Address</label>
+        <textarea placeholder="Enter delivery address" required></textarea>
+
+        <label>Delivery Date</label>
+        <input type="date" required>
+
+        <button type="submit">🌷 Order Now</button>
+    </form>
+
+    <div class="footer">
+        © 2026 Flower Shop | Fresh & Beautiful Flowers
+    </div>
+</div>
+
+</body>
+</html>
